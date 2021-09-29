@@ -1,0 +1,628 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: url( laptop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+}
+.nav{
+    background: #09090f;
+    height: 70px;
+}
+.logo{
+    font-size: large;
+    font-weight: 100;
+    font-family: serif;
+    margin-left: 25px;
+    padding: 10px;
+    color: rgb(3, 57, 207);
+}
+.nav-menu{
+    text-decoration: none;
+    display: flex;
+    margin: 5px;
+    float: right;
+    font-family: 'Cinzel', serif;
+
+    
+    
+}
+.nav-menu ul li{
+     display: inline-block;
+     list-style: none;
+    
+     
+     
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 30px;
+    color: rgb(250, 247, 252);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 1px 2px 4px rgb(31, 226, 90); 
+}
+.nav-menu ul li a:hover{
+    background: darkgoldenrod;
+}
+.profile{
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.name h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+}
+
+    
+
+.bio{
+    font-size: 35px;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+.about{
+    box-sizing: border-box;
+    background: cadetblue;
+    border-radius: 45px;
+    text-align: justify;
+    
+
+
+}
+.tag h3{
+    margin-left:750px;
+    height: 80px;
+    width: 285px;
+    color: midnightblue;
+    float: center;
+    font-size: 45px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 2px 4px rosybrown;
+    text-align: center;
+    
+
+}
+.bio-2{
+    font-size: 25px;
+    color: rgb(233, 228, 238);
+    text-align: justify;
+    line-height: 80px;
+}
+.work-skill{
+    height: 620px;
+    margin-top: 15px;
+    background: slategray;
+    box-sizing: border-box;
+    display: flex; 
+    box-shadow: 1px 1px 2px 4px rgb(90, 177, 192);
+
+}
+.science {
+    height: 549px;
+    margin-top: 50px;
+    background: lightslategray;
+    color: indigo;
+    margin-left:450px;
+    transform: skewY(8deg);
+     box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                 15px 15px 15px rgba(0,0,0,0.1),
+                 inset -5px -5px 5px rgba(255,255,255,0.2),
+                  inset  15px 15px 15px rgba(0,0,0,0.1);
+}
+.science:hover{
+    background: black;
+    color: coral;
+}
+.teacher{
+   
+    height: 250px;
+    width: 150px;
+    margin-left: 100px;
+    border-radius: 50px;
+    box-shadow: lightslategray;
+
+
+}
+.science h3{
+    font-size: 35px;
+    color: rebeccapurple;
+    text-align: center;
+}
+.bio-3{
+    line-height: 25px;
+    margin-left: 15px;
+
+}
+.work-2{
+    line-height: 28px;
+    margin-top: 50px;
+    background: lightslategray;
+    color: indigo;
+    height: 549px;
+    width: 320px;
+    float: right;
+    margin-left: 30px;
+    transform: skewY(8deg);
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                 15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset  15px 15px 15px rgba(0,0,0,0.1);
+           
+
+}
+.work-2:hover{
+    background: black;
+    color: coral;
+    rotate: (360degree);
+}
+
+.about-sujon{
+    line-height: 28px;
+    margin-top: 50px;
+    background: lightslategray;
+    color: indigo;
+    height: 549px;
+    width: 320px;
+    float: right;
+    margin-left: 30px;
+    transform: skewY(8deg);
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                 15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset  15px 15px 15px rgba(0,0,0,0.1);
+           
+
+}
+
+.about-sujon:hover{
+    background: black;
+    color: coral;
+    rotate: (360degree);
+}
+
+
+.title h3{
+    font-size: 35px;
+    text-align: center;
+    color: darkviolet;
+}
+
+
+.teaching-1{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 80px;
+
+}
+.sujon{
+    height: 200px;
+    width: 150px;
+    border-radius: 50px;
+    margin-left: 80px;
+
+}
+
+.subject{
+    display: flex;
+    padding-top: 20px;
+    background: rgb(135, 206, 250);
+    height: 450px;
+}
+
+
+.subject-tag{
+    margin-top: 5px;
+    background:slateblue;
+}
+.subject-tag h3{
+
+
+    margin-left:700px;
+    height: 80px;
+    width: 600px;
+    color: rgb(223, 140, 15);
+    float: center;
+    font-size: 45px;
+    border-radius: 35px;
+    box-shadow: -15px -15px 15px rgba(247, 241, 241, 0.2),
+                 15px 15px 15px rgba(202, 197, 197, 0.1),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.781),
+                inset  15px 15px 15px rgba(231, 222, 222, 0.418);
+
+    text-align: center;
+ 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.physics{
+    box-shadow: 1px 1px 2px 4px rgb(251, 253, 253) ; 
+    margin-left: 15px;
+    height: 410px;
+    margin-right: 15px;
+    text-align: justify;
+}
+.physics:hover{
+    background: black;
+    color: rgb(153, 118, 209);
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    border-radius: 80px;
+    margin-left: 160px;
+    transition: transform 1s;
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+    .phy-1 h3{
+        font-size: 35px;
+        text-align: center;
+       
+    }
+    .phy-1 h3:hover{
+        color: turquoise;
+    }
+    .math-1 h3{
+        text-align: center;
+        font-size: 35px;
+    }
+    .logo-2{
+        height: 200px;
+        width: 200px;
+        border-radius: 80px;
+        margin-left: 228px; 
+        transition: transform 1s;
+    }  
+    
+    .logo-2:hover{
+        transform: rotate(360deg);
+    }
+    .logo-3{
+        height: 200px;
+        width: 200px;
+        border-radius: 80px;
+        margin-left: 228px;  
+        transition: transform 1s;
+    }
+    
+    .logo-3:hover{
+        transform: rotate(360deg);
+    }
+    .che-1 h3{
+        text-align: center;
+        font-size: 35px;
+    }
+    .che-1 h3:hover{
+        color: orangered;
+    }
+    .math{
+        box-shadow: 1px 1px 2px 4px rgb(251, 253, 253) ; 
+        margin-left: 15px;
+        height: 410px;
+        margin-right: 15px;
+        text-align: justify;
+    }
+    .math:hover{
+        background: black;
+        color: rgb(224, 221, 46);
+    }
+    .chemistry{
+        box-shadow: 1px 1px 2px 4px rgb(251, 253, 253) ; 
+        margin-left: 15px;
+        height: 410px;
+        margin-right: 15px;
+        text-align: justify;
+    }
+    .chemistry:hover{
+        background: rgb(0, 2, 7);
+        color: rgb(41, 168, 79);
+    }
+    .favourite-person{
+        display: flex;
+        background: slateblue;
+        padding: 5px;
+    }
+    .persion-tag{
+        margin-top: 5px;
+        background:slateblue;
+    }
+    .persion-tag h3{
+
+
+        margin-left:700px;
+        height: 80px;
+        width: 600px;
+        color: rgb(223, 140, 15);
+        float: center;
+        font-size: 45px;
+        border-radius: 35px;
+        box-shadow: -15px -15px 15px rgba(247, 241, 241, 0.2),
+                     15px 15px 15px rgba(202, 197, 197, 0.1),
+                    inset -5px -5px 5px rgba(255, 255, 255, 0.781),
+                    inset  15px 15px 15px rgba(231, 222, 222, 0.418);
+    
+        text-align: center;
+     
+
+
+    }
+    .newton{
+        height: 200px;
+        width: 200px;
+        border-radius: 80px;
+        margin-left: 130px;  
+        transition: transform 1s; 
+    }
+    .newton:hover{
+        transform: rotate(360deg);
+    }
+    .person-1{
+        box-shadow: 1px 1px 2px 4px rgb(251, 253, 253) ; 
+        margin-left: 15px;
+        height: 410px;
+        margin-right: 15px;
+        text-align: justify;
+        transition: 1s;
+    }
+    .person-1:hover{
+        transform:scaleX(0.90);
+        background: orange;
+        
+
+    }
+    .Albert-Einstein{
+        height: 200px;
+        width: 200px;
+        border-radius: 80px;
+        margin-left: 228px;  
+        transition: transform 1s; 
+    }
+    .Albert-Einstein:hover{
+        transform: rotate(-360deg);
+    }
+    .person-2{
+        box-shadow: 1px 1px 2px 4px rgb(251, 253, 253) ; 
+        margin-left: 15px;
+        height: 410px;
+        margin-right: 15px;
+        text-align: justify;
+        transition: 1s;
+    }
+    .person-2:hover{
+        transform:scaleX(0.90);
+        background: orange;
+        box-shadow: 1px 1px 2px 4px rgb(239, 245, 240);
+
+    }
+    .Galileo-Galilei {
+        height: 200px;
+        width: 200px;
+        border-radius: 80px;
+        margin-left: 228px;  
+        transition: transform 1s; 
+    }
+    .Galileo-Galilei:hover{
+        transform: rotate(360deg);
+    }
+    .person-3{
+        box-shadow: 1px 1px 2px 4px rgb(251, 253, 253) ; 
+        margin-left: 15px;
+        height: 410px;
+        margin-right: 15px;
+        text-align: justify;
+        transition: 1s;
+    }
+    .person-3:hover{
+        transform:scaleX(0.90);
+        background: orange;
+
+    }
+    .aim{
+        margin-top: 10px;
+        background: black;
+        height: 500px;
+        border-radius: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .vission{
+       border-radius: 3px;
+    }
+.mission{
+    height: 450px;
+    width: 350px;
+    float: right;
+
+ }
+
+.head-bio{
+    color: cyan;
+    line-height: 50px;
+}
+.head{
+    padding-top: 15px;
+}
+.head h3{
+    margin-left:750px;
+    height: 80px;
+    width: 380px;
+    color: rgb(223, 140, 15);
+    float: center;
+    font-size: 45px;
+    border-radius: 35px;
+    box-shadow: -15px -15px 15px rgba(247, 241, 241, 0.2),
+                 15px 15px 15px rgba(202, 197, 197, 0.1),
+                inset -5px -5px 5px rgba(255, 255, 255, 0.781),
+                inset  15px 15px 15px rgba(231, 222, 222, 0.418);
+
+    text-align: center;
+    
+
+}
+.footer{
+    height: 480px;
+    display: flex;
+    background: cadetblue;
+    box-sizing: border-box;
+}
+.footer-1{
+    text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: indigo;
+    height: 420px;
+    width: 320px;
+    margin-left: 290px;
+    border-radius: 5px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                 15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset  15px 15px 15px rgba(0,0,0,0.1);
+}
+.about-logo{
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+        border-radius: 80px;
+        margin-left: 120px;  
+        transition: transform 1s; 
+
+
+}
+
+
+.footer-2{
+    margin-top: 30px;
+    color: indigo;
+    height: 420px;
+    width: 320px;
+    margin-left: 150px;
+    border-radius: 5px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                 15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset  15px 15px 15px rgba(0,0,0,0.1);
+}
+.contact-logo{
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+        border-radius: 80px;
+        margin-left: 120px;  
+        transition: transform 1s; 
+
+
+}
+
+.right-box{
+    margin-top: 30px;
+    color: indigo;
+    height: 420px;
+    width: 320px;
+    margin-left: 150px;
+    border-radius: 5px;
+    box-shadow: -15px -15px 15px rgba(255,255,255,0.2),
+                 15px 15px 15px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset  15px 15px 15px rgba(0,0,0,0.1);
+}
+.right-logo{
+        margin-top: 20px;
+        height: 100px;
+        width: 100px;
+        border-radius: 80px;
+        margin-left: 110px;  
+        transition: transform 1s; 
+
+
+}
+.title-2 h3{
+    text-align: center;
+}
+.title-3 h3{
+    text-align: center;
+}
+.end{
+    text-align: center;
+    background: black;
+    color: coral;
+    border-radius: 30px;
+}
+.btn{
+  
+}
+button{
+    background: black;
+    color: chocolate;
+    border-radius: 50px;
+    height: 30px;
+    width: 70px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 80px;
+   
+}
+button:hover{
+    background: darkslategray;
+    color: mintcream;
+}
+.icon{
+    line-height: 20px;
+
+}
+.icon ul{
+    margin-left: 550px;
+    position: relative;
+    display: flex;
+   text-decoration: none;
+   list-style: none;   
+}
+.icon li{
+     position: relative;
+     display: inline-block;
+     list-style: none;
+}
+.icon li a{
+    margin-left: 100px;
+    padding:15px;
+    color: darkviolet;
+    position: relative;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: inset -1px -1px 2px rgba(0,0,0,0.2),
+                       2px 2px 5px rgba(0,0,0,0.2);
+    transition:0.5s;
+    background: darkgray;
+     width:40px;
+     height: 40px;
+    font-size: 40px;
+}
+.icon li a:hover{
+  color:cyan;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  box-shadow: inset -1px -1px 2px rgba(0,0,0,0.2),
+                2px 2px 5px rgba(0,0,0,0.2);
+} 
